@@ -1,0 +1,1 @@
+To build, just do clang++ -std=gnu++17 main.cpp -o holepunch

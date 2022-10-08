@@ -14,8 +14,8 @@ struct Segment {
     bool isHole;
 };
 
-int main(){
-    int file=open("file.txt",O_RDWR);
+int main(int argc, char *argv[]){
+    int file=open(argv[0],O_RDWR);
     struct stat fileSystem;
     stat("/", &fileSystem);
     int blockSize=fileSystem.st_blksize;
