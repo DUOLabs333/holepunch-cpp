@@ -1,1 +1,7 @@
+holepunch-cpp: Port of Holepunch (https://github.com/niw/HolePunch) to C++
+
+I made this so people don't have to install the large swift runtime, but just use C++
+
 To build, just do clang++ -std=gnu++17 main.cpp -o holepunch
+
+To run, use ./holepunch <file>
